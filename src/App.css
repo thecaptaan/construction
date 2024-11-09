@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.construction {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+a {
+  color: #000;
+}
+
+.construction_item {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.coming {
+  font-size: 5rem;
+}
+
+.coming__p {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.hostname {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: blue;
+  margin-top: 40%;
+  position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+  .coming {
+    font-size: 3rem;
+  }
+
+  .coming__p {
+    font-size: 1rem;
+  }
+
+  .hostname {
+    font-size: 1rem;
+    margin-top: 10px;
+    position: static;
+  }
+}
